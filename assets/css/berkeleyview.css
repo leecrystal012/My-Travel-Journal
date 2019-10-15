@@ -1,0 +1,83 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 1024px;
+	background: white;
+	font-family: 'Lato', sans-serif;
+}
+
+div {
+	display: block;
+}
+
+#top-container {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+#banner-pic {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#overlay {
+	position: absolute;
+	background: black;
+	opacity: .5;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#heading {
+	color: white;
+	text-align: center;
+	font-size: 55px;
+	z-index: 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30%;
+
+}
+
+#nightmarket {
+	width: 100%;
+	height: 100%;
+}
+
+.description {
+	color: gray;
+	font-size: 40px;
+	text-align: center;
+	padding: 100px;
+/*	margin: 10px;*/
+}
+
+.space{
+	padding: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	font-size: 34px;
+	color: gray;
+	text-align: center;
+
+}
+.square-pic {
+	width: 48%;
+	height: 45%;
+	margin: 10px;
+
+}
+
+.long-pic {
+	margin: 10px;
+	width: 100%;
+
+}
+
